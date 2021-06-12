@@ -1,0 +1,3 @@
+[submodule "betanin"]
+	path = betanin
+	url = https://github.com/sentriz/betanin.git
