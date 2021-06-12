@@ -1,4 +1,5 @@
 FROM python:3.6-alpine
+LABEL org.opencontainers.image.source https://github.com/cirfis/docker-betanin
 
 RUN \
   apk add --no-cache --virtual build-dep build-base rust cargo git openssl-dev py3-greenlet py3-gevent py3-cryptography && apk add --no-cache libevent openssl curl libev libffi-dev sudo && \
